@@ -11,7 +11,13 @@ namespace CSharpFundamentalsPublicAndPrivate
         static void Main(string[] args)
         {
 
+            Car car = new Car();
 
+            //we can't call helperMethod from outside of the class because the method is private
+            //car.helperMethod();
+
+
+            car.DoSomething();
 
             Console.ReadLine();
         }
