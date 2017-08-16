@@ -26,13 +26,13 @@ namespace CSharpFundamentalsPublicAndPrivate
         {
 
             //public methods are available everywhere in the code
-            public void DoSomething()
+            public void DoSomething()  //when something is public, it should use PascalCase
             {
                 Console.WriteLine(helperMethod());
             }
 
             //private methods are only available to members of the same class
-            private string helperMethod()
+            private string helperMethod() //things that are private shoudl use camelCase
             {
                 return "Hello world!";
             }
